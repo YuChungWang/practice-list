@@ -11,6 +11,9 @@
   <div id="hacker-list">
     <ul class="list"></ul>
   </div>
+  <div id="history-list">
+    <ul class="list"></ul>
+  </div>
 </body>
 <script type="text/javascript">
   const options = {
@@ -22,6 +25,9 @@
     { name: 'Charlie', city: 'Tainan' },
     { name: 'Eva', city: 'Kaohsiung' },
   ];
+
   const hackerList = new List('hacker-list', options, values);
+
+  const historyList = new List('history-list', options, values);
 </script>
 </html>
